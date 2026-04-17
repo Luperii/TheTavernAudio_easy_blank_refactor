@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{4e7f0f57-cc26-4617-88ba-464c2061bcf4}">
+		<property name="assetPath">
+			<value>player/jump_stone_5.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.5756666666666668</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{9eb05777-8d2f-4b9c-9181-1224c6726f07}</destination>
+		</relationship>
+	</object>
+</objects>

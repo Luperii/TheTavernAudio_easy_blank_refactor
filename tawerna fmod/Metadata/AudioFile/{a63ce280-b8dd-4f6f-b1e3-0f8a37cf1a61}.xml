@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{a63ce280-b8dd-4f6f-b1e3-0f8a37cf1a61}">
+		<property name="assetPath">
+			<value>AMB/amb_forest.flac</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>60.491666666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{9eb05777-8d2f-4b9c-9181-1224c6726f07}</destination>
+		</relationship>
+	</object>
+</objects>
