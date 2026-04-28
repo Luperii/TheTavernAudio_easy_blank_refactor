@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: tawerna fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639126227960214076
+  lastModified: 639129769321272768
   FileSizes:
   - Name: Desktop
-    Value: 8217152
+    Value: 8218528
   Exists: 1
 --- !u!114 &-6903005471183285786
 MonoBehaviour:
@@ -123,13 +123,14 @@ MonoBehaviour:
   - {fileID: -6193627990834239153}
   - {fileID: -6903005471183285786}
   - {fileID: 2163295600392829379}
+  - {fileID: 2468084392481336725}
   EditorParameters: []
   MasterBanks:
   - {fileID: -7693809738781434749}
   StringsBanks:
   - {fileID: 6888490500947347181}
   cacheVersion: 131859
-  cacheTime: 639126227960224601
+  cacheTime: 639129769321282865
   SerializableEventsDict:
   - key: event:/Footsteps/footsteps
     index: 0
@@ -143,6 +144,8 @@ MonoBehaviour:
     index: 4
   - key: event:/AMB/amb_fire
     index: 5
+  - key: snapshot:/Outside
+    index: 6
 --- !u!114 &2163295600392829379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -170,6 +173,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 118321
+--- !u!114 &2468084392481336725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/Outside
+  m_EditorClassIdentifier: 
+  Path: snapshot:/Outside
+  Guid:
+    Data1: 1854892949
+    Data2: 1312456419
+    Data3: -403732062
+    Data4: 1411794541
+  Banks:
+  - {fileID: -7693809738781434749}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
 --- !u!114 &2561706599196829730
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -266,10 +296,10 @@ MonoBehaviour:
   Path: tawerna fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639126227960224601
+  lastModified: 639129769321282865
   FileSizes:
   - Name: Desktop
-    Value: 1086
+    Value: 1210
   Exists: 1
 --- !u!114 &7550483361784564658
 MonoBehaviour:
