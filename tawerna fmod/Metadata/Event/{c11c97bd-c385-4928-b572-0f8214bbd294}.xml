@@ -215,31 +215,52 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{c71ccc85-3130-4111-85c6-f67543d14ed8}">
+		<property name="startOffset">
+			<value>50.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{6d0a98a1-5b58-4b4b-a9db-efe83bc8bb99}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{0b7208c2-023d-499e-8209-c498a512090d}">
+		<property name="startOffset">
+			<value>46</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{50025793-d121-4510-9cfb-128276a99472}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{7e4b8491-23ee-40e5-b4e1-f25bdeaffe07}">
+		<property name="startOffset">
+			<value>46</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{62a4bbc7-697a-4ab2-a1df-06ecff47f4a0}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{54999da8-4079-4e40-bcd1-38a2ce24dd88}">
+		<property name="startOffset">
+			<value>50.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{00505785-fe34-4e4c-8260-ffa3df706dee}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{017aed6b-2368-4aee-8813-11756d2f4b5a}">
+		<property name="startOffset">
+			<value>46.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{27382633-8809-403d-ba68-9f4b04e8056c}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{790954a5-985d-488e-8c81-acfbd661e306}">
+		<property name="startOffset">
+			<value>54</value>
+		</property>
+		<property name="pitch">
+			<value>7</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{ff0a44e6-ba0a-45ed-9e68-168725fd2db7}</destination>
 		</relationship>
@@ -278,31 +299,49 @@
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{34f7d336-85c4-4d77-a433-8fc7a3057963}">
+		<property name="startOffset">
+			<value>36.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{2ca7fc32-41bd-45f8-b9c8-b38e89fe0ff0}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{2510834e-227b-41e7-b219-c2b681271590}">
+		<property name="startOffset">
+			<value>42.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{29b2dcfc-1270-46e7-b464-bab2a17d26a8}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{3ebfa3b4-143f-41fe-a019-3831087240fe}">
+		<property name="startOffset">
+			<value>43.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{038109fd-9cce-48c0-a1d6-27077c7d35a8}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{8b9280f6-6e56-40d2-b251-ef2933cc448e}">
+		<property name="startOffset">
+			<value>46.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{4f8f8b83-3875-44a4-9fa1-3845f2153284}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{dee708b5-ee76-4520-9d23-fbfdfd4940fc}">
+		<property name="startOffset">
+			<value>46.5</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{4e7f0f57-cc26-4617-88ba-464c2061bcf4}</destination>
 		</relationship>
 	</object>
 	<object class="SingleSound" id="{d4e87e1a-178e-41db-a68e-a18f06034ac0}">
+		<property name="startOffset">
+			<value>47</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{9a2c8f20-682f-4b84-8bf6-6691f2a1064f}</destination>
 		</relationship>

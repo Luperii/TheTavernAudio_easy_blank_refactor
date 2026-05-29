@@ -98,6 +98,9 @@
 		<property name="startOffset">
 			<value>49.5</value>
 		</property>
+		<property name="volume">
+			<value>-8.5</value>
+		</property>
 		<property name="looping">
 			<value>true</value>
 		</property>
@@ -159,6 +162,13 @@
 	</object>
 	<object class="MixerBusPanner" id="{a08d83bf-4af8-46da-b232-f058e7065f8d}" />
 	<object class="MixerBusFader" id="{4c5e892d-e1a1-4ca7-9cb1-19d268dc83d4}" />
-	<object class="SpatialiserEffect" id="{d39e10e8-2adf-48f8-8a84-a20a381095ae}" />
+	<object class="SpatialiserEffect" id="{d39e10e8-2adf-48f8-8a84-a20a381095ae}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="minimumExtent">
+			<value>126</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{41ab1695-43e5-47bb-aa8e-d142df46c2cc}" />
 </objects>

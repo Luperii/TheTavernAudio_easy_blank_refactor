@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: tawerna fmod/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639138416128933795
+  lastModified: 639156474171474031
   FileSizes:
   - Name: Desktop
-    Value: 8249568
+    Value: 8418176
   Exists: 1
 --- !u!114 &-7663122719641027956
 MonoBehaviour:
@@ -127,6 +127,32 @@ MonoBehaviour:
   - Wood
   - Stone
   Exists: 1
+--- !u!114 &-1554188366784155076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/land/footsteps_surface
+  m_EditorClassIdentifier: 
+  Name: footsteps_surface
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 3047243107
+    data2: 373129140
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Wood
+  - Stone
+  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -151,13 +177,14 @@ MonoBehaviour:
   - {fileID: 2163295600392829379}
   - {fileID: 2468084392481336725}
   - {fileID: 2029984594712370516}
+  - {fileID: 3563277779435647936}
   EditorParameters: []
   MasterBanks:
   - {fileID: -7693809738781434749}
   StringsBanks:
   - {fileID: 6888490500947347181}
   cacheVersion: 131859
-  cacheTime: 639138416128947060
+  cacheTime: 639156474171494495
   SerializableEventsDict:
   - key: event:/Footsteps/footsteps
     index: 0
@@ -175,6 +202,8 @@ MonoBehaviour:
     index: 6
   - key: event:/Doors
     index: 7
+  - key: event:/Footsteps/land
+    index: 8
 --- !u!114 &2029984594712370516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -285,6 +314,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 622
+--- !u!114 &3563277779435647936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Footsteps/land
+  m_EditorClassIdentifier: 
+  Path: event:/Footsteps/land
+  Guid:
+    Data1: 229230089
+    Data2: 1159774908
+    Data3: 1328534675
+    Data4: 671607081
+  Banks:
+  - {fileID: -7693809738781434749}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters:
+  - {fileID: -1554188366784155076}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 500
 --- !u!114 &4344728684500754565
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -353,10 +410,10 @@ MonoBehaviour:
   Path: tawerna fmod/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639138416128947060
+  lastModified: 639156474171494495
   FileSizes:
   - Name: Desktop
-    Value: 1474
+    Value: 1510
   Exists: 1
 --- !u!114 &7550483361784564658
 MonoBehaviour:

@@ -110,6 +110,9 @@
 		<property name="length">
 			<value>0.58466666666666667</value>
 		</property>
+		<property name="volume">
+			<value>-5</value>
+		</property>
 		<property name="pitch">
 			<value>0.699999988</value>
 		</property>
@@ -147,6 +150,9 @@
 	<object class="MultiSound" id="{a73f5ae4-e96e-4b7f-9f77-4de46401763f}">
 		<property name="length">
 			<value>0.62262499999999998</value>
+		</property>
+		<property name="volume">
+			<value>-5</value>
 		</property>
 		<property name="pitch">
 			<value>-6</value>
